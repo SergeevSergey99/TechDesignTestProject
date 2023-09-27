@@ -6,13 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    [SerializeField] SceneAsset sceneAsset;
-    
-    public void LoadScene()
+    public void LoadScene(int sceneToLoad)
     {
-        if (sceneAsset != null)
-        {
-            SceneManager.LoadScene(sceneAsset.name);
-        }
+        SceneManager.LoadScene(sceneToLoad);
+    }
+    public void LoadScene(string sceneToLoad)
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
