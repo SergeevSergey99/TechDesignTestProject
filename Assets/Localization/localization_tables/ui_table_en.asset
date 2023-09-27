@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 55966806016
-    m_Localized: Go to first scene
+    m_Localized: First scene
     m_Metadata:
       m_Items: []
   - m_Id: 192696922112
-    m_Localized: Go to secon scene
+    m_Localized: Second secon
     m_Metadata:
       m_Items: []
   references:
