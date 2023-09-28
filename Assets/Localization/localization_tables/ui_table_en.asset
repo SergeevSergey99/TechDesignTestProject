@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Second secon
     m_Metadata:
       m_Items: []
+  - m_Id: 415215483203584
+    m_Localized: Localize
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

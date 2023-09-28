@@ -23,6 +23,10 @@ MonoBehaviour:
     m_Key: go_to_second
     m_Metadata:
       m_Items: []
+  - m_Id: 415215483203584
+    m_Key: Localize
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
