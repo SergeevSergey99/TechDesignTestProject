@@ -14,4 +14,12 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(sceneToLoad);
     }
+    public void Quit()
+    {
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#else
+        Application.Quit();
+#endif
+    }
 }
